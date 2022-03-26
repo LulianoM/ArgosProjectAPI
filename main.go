@@ -9,5 +9,5 @@ func main() {
 	app := fiber.New()
 	routes.Setup(app)
 
-	app.Listen(":3000")
+	app.Listen(":8000")
 }
